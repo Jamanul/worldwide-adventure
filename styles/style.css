@@ -361,7 +361,93 @@ footer hr{
     color: #5A5A5D;
     font-weight: 400px;
 }
-
+.discount-card-top{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+display: flex;
+align-items: center;
+flex-wrap: nowrap;
+}
+.discount-card-top img{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.discount-card-title{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.discount-card-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.discount-card-price{
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+}
+.discount-section-one{
+    background-image: url('../images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 24px;
+}
+.discount-box-one{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    margin: 56px 24px 72px 865px;
+}
+.discount-section-two{
+    background-image: url('../images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 24px;
+}
+.discount-box-two{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    margin: 56px 865px 72px 24px;
+}
+.discount-section-three{
+    background-image: url('../images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 24px;
+}
+.discount-box-three{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    margin: 56px 24px 72px 865px;
+}
+.see-all{
+    text-align: center;
+    margin: 0px 600px;
+    margin-bottom: 72px;
+}
+.discount-section-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.discount-section-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
 @media screen and (max-width:600px) {
     header,.explore-input-section,main{
         margin: 20px;
@@ -445,5 +531,8 @@ footer hr{
     }
     .explore-card-section{
         flex-wrap: wrap;
+    }
+    .discount-box-one,.discount-box-two,.discount-box-three{
+        margin: 24px;
     }
 }
