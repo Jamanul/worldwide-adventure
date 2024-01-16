@@ -448,6 +448,9 @@ font-weight: 800;
     font-weight: 400;
     margin-bottom: 24px;
 }
+.footer-title span{
+    margin:  0px 10px;
+}
 @media screen and (max-width:600px) {
     header,.explore-input-section,main{
         margin: 20px;
@@ -532,7 +535,7 @@ font-weight: 800;
     .explore-card-section{
         flex-wrap: wrap;
     }
-    .discount-box-one,.discount-box-two,.discount-box-three{
+    .discount-box-one,.discount-box-two,.discount-box-three,.see-all{
         margin: 24px;
     }
 }
