@@ -244,6 +244,64 @@ background: rgba(41, 206, 246, 0.05);
 .btn-padding{
     padding: 14px 42px;
 }
+/* newsletter styles */
+.newsletter-section{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-content{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletter-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 20px 40px ;
+}
+.newsletter-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin:0px 68px 0px 40px ;
+    border-bottom: 1px solid #5a5a5d3b;
+    padding-bottom: 24px;
+}
+.newsletter-content input{
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    width: 80%;
+    margin: 25px 0px 0px 40px;
+}
+.subscribe-button{
+    width: 85.5%;
+    margin: 20px 40px ;
+    font-size: 20px;
+}
+.special-button{
+    border-radius: 16px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    transform: rotate(-30deg);
+    }
+.newsletter-image{
+    position: relative;
+}
+.button-line-two{
+    margin-top: -15px;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0px 10px;
+}
 @media screen and (max-width:600px) {
     header,.explore-input-section,main{
         margin: 20px;
@@ -279,7 +337,7 @@ background: rgba(41, 206, 246, 0.05);
     .btn-width{
         width: 350px;
     }
-    .popular-tours{
+    .popular-tours,.newsletter-section{
         flex-direction: column;
         gap: 24px;
         margin: 24px 0px;
@@ -308,7 +366,7 @@ background: rgba(41, 206, 246, 0.05);
     .why-us-content{
         flex-direction: column;
     }
-    .content-box,.video-section-content{
+    .content-box,.video-section-content,.newsletter-image img{
         width: 100%;
     }
     .box-three{
