@@ -33,7 +33,7 @@ nav{
 nav>img{
     display: none;
 }
-.nav-title{
+.nav-title,.footer-title{
     color: #131318;
     font-size: 2.3rem;
     font-weight: 800;
@@ -302,6 +302,66 @@ background: rgba(41, 206, 246, 0.05);
     font-weight: 800;
     padding: 0px 10px;
 }
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-title{
+        display: flex;
+        align-items: center;
+        padding: 110px 600px 0px 680px;
+}
+.footer-description{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 385px;
+}
+.footer-icon{
+    text-align: center;
+    margin: 24px 0px;
+}
+.footer-icon i{
+    margin-right: 24px;
+} 
+footer hr{
+    width: 80%;
+}
+.footer-finish{
+    text-align: center;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 110px;
+}
+.explore-card{
+    border: 1px solid gray;
+    background: #FFF;
+    box-shadow: #5A5A5D 20px;
+    height: 150px ;
+    width: 150px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+.explore-card-section{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    justify-content: space-around;
+}
+.explore-section-info{
+    text-align: center;
+}
+.explore-info-title{
+    font-size: 48px;
+    font-weight: 800;
+}
+.explore-info-description{
+    font-size: 28px;
+    color: #5A5A5D;
+    font-weight: 400px;
+}
+
 @media screen and (max-width:600px) {
     header,.explore-input-section,main{
         margin: 20px;
@@ -376,5 +436,14 @@ background: rgba(41, 206, 246, 0.05);
         flex-direction: column;
         gap: 24px;
         margin-bottom: 24px;
+    }
+    .footer-title{
+        padding: 20px 30px 0px 60px;
+    }
+    .footer-description{
+        padding: 0px 20px ;
+    }
+    .explore-card-section{
+        flex-wrap: wrap;
     }
 }
